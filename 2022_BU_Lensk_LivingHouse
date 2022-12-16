@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-15T01:01:51.120Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.46" etag="JEM4Ch5A3ZGD9-XZhwPR" version="20.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-16T17:15:53.770Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.46" etag="stsAIN6qCPFKOCUKcG-U" version="20.7.2" type="github">
   <diagram id="60UZziginFyiZZrGfeis" name="Страница 1">
-    <mxGraphModel dx="1207" dy="2319" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1208" dy="2311" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16,7 +16,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="9OsI4Rp4oJlksRfmm5y8-4" value="УЧАСТОК" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="90" y="160" width="860" height="820" as="geometry">
+          <mxGeometry x="90" y="160" width="860" height="960" as="geometry">
             <mxRectangle x="90" y="160" width="100" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -32,7 +32,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="9OsI4Rp4oJlksRfmm5y8-10" value="&lt;b style=&quot;&quot;&gt;Внутренние сети&lt;/b&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="9OsI4Rp4oJlksRfmm5y8-4" vertex="1">
-          <mxGeometry x="20" y="280" width="800" height="520" as="geometry">
+          <mxGeometry x="20" y="425" width="800" height="520" as="geometry">
             <mxRectangle x="20" y="280" width="140" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -44,10 +44,10 @@
             <mxPoint x="-24" y="4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5vJLjXZc5FZEGBJfDbyI-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="9OsI4Rp4oJlksRfmm5y8-10" source="9OsI4Rp4oJlksRfmm5y8-11" target="9OsI4Rp4oJlksRfmm5y8-15">
+        <mxCell id="5vJLjXZc5FZEGBJfDbyI-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="9OsI4Rp4oJlksRfmm5y8-10" source="9OsI4Rp4oJlksRfmm5y8-11" target="9OsI4Rp4oJlksRfmm5y8-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5vJLjXZc5FZEGBJfDbyI-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="9OsI4Rp4oJlksRfmm5y8-10" source="9OsI4Rp4oJlksRfmm5y8-11" target="9OsI4Rp4oJlksRfmm5y8-16">
+        <mxCell id="5vJLjXZc5FZEGBJfDbyI-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="9OsI4Rp4oJlksRfmm5y8-10" source="9OsI4Rp4oJlksRfmm5y8-11" target="9OsI4Rp4oJlksRfmm5y8-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9OsI4Rp4oJlksRfmm5y8-11" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;ВК&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Attribute1: Type&lt;br&gt;+ Attribute2: Type&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;" parent="9OsI4Rp4oJlksRfmm5y8-10" vertex="1">
@@ -72,25 +72,31 @@
         <mxCell id="9OsI4Rp4oJlksRfmm5y8-16" value="Типовой этаж" style="rounded=0;whiteSpace=wrap;html=1;" parent="9OsI4Rp4oJlksRfmm5y8-10" vertex="1">
           <mxGeometry x="310" y="220" width="120" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="5vJLjXZc5FZEGBJfDbyI-3" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;ПС&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Система пожарной сигнализации&lt;br&gt;+ Attribute2: Type&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;" vertex="1" parent="9OsI4Rp4oJlksRfmm5y8-10">
+        <mxCell id="5vJLjXZc5FZEGBJfDbyI-3" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;ПС&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Система пожарной сигнализации&lt;br&gt;+ Attribute2: Type&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;" parent="9OsI4Rp4oJlksRfmm5y8-10" vertex="1">
           <mxGeometry x="15" y="410" width="180" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="5vJLjXZc5FZEGBJfDbyI-4" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="5vJLjXZc5FZEGBJfDbyI-3">
+        <mxCell id="5vJLjXZc5FZEGBJfDbyI-4" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" parent="5vJLjXZc5FZEGBJfDbyI-3" vertex="1">
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
             <mxPoint x="-24" y="4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5vJLjXZc5FZEGBJfDbyI-5" value="Этаж 4" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="9OsI4Rp4oJlksRfmm5y8-10">
+        <mxCell id="5vJLjXZc5FZEGBJfDbyI-5" value="Этаж 4" style="rounded=0;whiteSpace=wrap;html=1;" parent="9OsI4Rp4oJlksRfmm5y8-10" vertex="1">
           <mxGeometry x="310" y="350" width="120" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="5vJLjXZc5FZEGBJfDbyI-6" value="Типовой этаж" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="9OsI4Rp4oJlksRfmm5y8-10">
+        <mxCell id="5vJLjXZc5FZEGBJfDbyI-6" value="Типовой этаж" style="rounded=0;whiteSpace=wrap;html=1;" parent="9OsI4Rp4oJlksRfmm5y8-10" vertex="1">
           <mxGeometry x="310" y="290" width="120" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="5vJLjXZc5FZEGBJfDbyI-7" value="Подвал" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="9OsI4Rp4oJlksRfmm5y8-10">
+        <mxCell id="5vJLjXZc5FZEGBJfDbyI-7" value="Подвал" style="rounded=0;whiteSpace=wrap;html=1;" parent="9OsI4Rp4oJlksRfmm5y8-10" vertex="1">
           <mxGeometry x="310" y="410" width="120" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="5vJLjXZc5FZEGBJfDbyI-8" value="Типовой этаж" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="9OsI4Rp4oJlksRfmm5y8-10">
+        <mxCell id="5vJLjXZc5FZEGBJfDbyI-8" value="Типовой этаж" style="rounded=0;whiteSpace=wrap;html=1;" parent="9OsI4Rp4oJlksRfmm5y8-10" vertex="1">
           <mxGeometry x="310" y="470" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="jwcwbeAN3GArREYXsG1v-1" value="МАФ, Оборудование" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="9OsI4Rp4oJlksRfmm5y8-4">
+          <mxGeometry x="20" y="220" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="jwcwbeAN3GArREYXsG1v-2" value="Покрытия" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="9OsI4Rp4oJlksRfmm5y8-4">
+          <mxGeometry x="20" y="280" width="120" height="25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
